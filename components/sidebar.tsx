@@ -34,7 +34,7 @@ export function Sidebar() {
   ]
 
   return (
-    <div className="flex h-screen w-64 flex-col border-r border-zinc-800 bg-black">
+    <div className="flex min-h-screen w-64 flex-col border-r border-zinc-800 bg-black">
       {/* Logo */}
       <div className="flex h-16 items-center border-b border-zinc-800 px-4">
         <Link href="/dashboard" className="flex items-center gap-2">
